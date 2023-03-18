@@ -1,7 +1,7 @@
 {
   "name": "spotify",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {},
   "author": "",
   "license": "ISC",
