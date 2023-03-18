@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <header>
+    <%- include('partials/header'); %>
+  </header>
+</head>
+
+  <body>
+    <div id="user-profile-template" id="loggedin" class="container jumbotron">
+      <div id='top'>
+        <div>
+          <h1>Spotify Playlist Finder</h1>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu scelerisque felis imperdiet proin fermentum leo vel. Amet venenatis urna cursus eget nunc scelerisque viverra
+            mauris. Aliquam vestibulum morbi blandit cursus risus at ultrices. Mus mauris vitae ultricies leo integer. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Tincidunt praesent semper feugiat nibh sed pulvinar proin gravida.
+            Ut tortor pretium viverra suspendisse potenti nullam. Facilisis mauris sit amet massa vitae tortor. Ac placerat vestibulum lectus mauris ultrices. Phasellus faucibus scelerisque eleifend donec. Neque gravida in fermentum et sollicitudin ac
+            orci phasellus. Augue neque gravida in fermentum et sollicitudin ac orci. Mauris ultrices eros in cursus turpis massa tincidunt dui ut. Id cursus metus aliquam eleifend mi. Id interdum velit laoreet id donec ultrices tincidunt. Tellus at
+            urna condimentum mattis.</p>
+        </div>
+        <div class="media">
+
+          <div id="search-form" class="intro-form row">
+            <div class="col-xs-offset-1 col-xs-10 col-sm-offset-3 col-sm-6">
+              <form class="go" action="/searchpage" method="post">
+                <input type="text" class="form-control input-lg" name="playlistTerms" id="playlistTerms" placeholder="'work out' OR workout " value="">
+                <br>
+                <button class="btn btn-primary btn-success btn-lg" role="button">Find playlists</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <footer>
+    <%- include('partials/footer'); %>
+  </footer>
+</html>
