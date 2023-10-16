@@ -12,8 +12,8 @@ const app = express();
 
 
 
-var client_id = '68d5c5bfd3b143f09f0496de2cb378df'; // Your client id
-var client_secret = 'a4e4cfc29d714457be98acbc1b2ba237'; // Your secret
+var client_id = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'; // Your client id
+var client_secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'; // Your secret
 var redirect_uri = 'http://localhost:8888/callback'; // Your redirect uri
 
 
