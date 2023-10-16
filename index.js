@@ -26,7 +26,7 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json())
 
 app.use(express.static(__dirname + '/public'));
-app.use(cors()); // to find out why cors and cookieParser affect the authentication flow
+app.use(cors()); 
 app.use(cookieParser());
 app.use(session({
   secret: 'your-secret-key',
